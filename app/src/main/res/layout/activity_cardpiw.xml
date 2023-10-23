@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="ExtraText"
+    android:background="@drawable/page1">
+
+    <!-- Tambahkan CardView di dalam ScrollView -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="1dp">
+    <!-- Sudut lengkungan kartu --><![CDATA[
+    card_view:cardElevation="4dp" ]]><!-- Elevasi kartu -->
+    card_view:cardUseCompatPadding="true" <!-- Padding kompatibel -->
+
+    <!-- Konten dalam CardView -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/page3"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="437dp"
+                android:layout_height="70dp"
+                android:text="DIJUAL SETARA DUNIA AJA KURANG" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="245dp"
+                android:src="@drawable/wajah" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="245dp"
+                android:src="@drawable/wajah" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="245dp"
+                android:src="@drawable/wajah" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="245dp"
+                android:src="@drawable/wajah" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="245dp"
+                android:src="@drawable/wajah" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="245dp"
+                android:src="@drawable/wajah" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="245dp"
+                android:src="@drawable/wajah" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="245dp"
+                android:src="@drawable/wajah" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="245dp"
+                android:src="@drawable/wajah" />
+
+            <!-- Tambahkan lebih banyak elemen jika diperlukan -->
+
+        </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
+    </ScrollView>
